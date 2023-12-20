@@ -26,7 +26,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://telegram.me/+f1wa7kPVgXkzYjg1")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/EAGEL_OP")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://telegram.me/+f1wa7kPVgXkzYjg1")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -83,17 +83,17 @@ PING_IMG_URL = getenv(
     "https://telegra.ph/file/b04efdacbf4b67079a6a4.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/b04efdacbf4b67079a6a4.jpg"
 
-GLOBAL_IMG_URL = "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph/file/b04efdacbf4b67079a6a4.jpg"
 
-STATS_IMG_URL = "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/b04efdacbf4b67079a6a4.jpg"
 
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg"
 
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg"
 
-STREAM_IMG_URL = "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/b04efdacbf4b67079a6a4.jpg"
 
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg"
 
