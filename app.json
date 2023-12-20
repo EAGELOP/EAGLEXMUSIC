@@ -1,7 +1,7 @@
 {
-    "name": "˹𝙅𝙚𝙣𝙣𝙞𝙚 ✘ 𝙈𝙪𝙨𝙞𝙘 ˼ ~🎵",
+    "name": "𝐄𝐀𝐆𝐋𝐄_𝐗_𝐌𝐔𝐒𝐈𝐂 ˼ ~🎵",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg",
+    "logo": "https://telegra.ph/file/b04efdacbf4b67079a6a4.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -34,7 +34,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "˹𝙅𝙚𝙣𝙣𝙞𝙚 ✘ 𝙈𝙪𝙨𝙞𝙘 ˼ ~🎵",
+        "value": "˹𝐄𝐀𝐆𝐋𝐄_𝐗_𝐌𝐔𝐒𝐈𝐂˼ ~🎵",
         "required": true
       },
       "OWNER_ID": {
