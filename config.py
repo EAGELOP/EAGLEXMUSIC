@@ -14,19 +14,19 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", ": ˹𝙅𝙚𝙣𝙣𝙞𝙚 ✘ 𝙈𝙪𝙨𝙞𝙘 ˼ ~🎵")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", ": ˹𝐄𝐀𝐆𝐋𝐄_𝐗_𝐌𝐔𝐒𝐈𝐂")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6084527452").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5079281532").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Moonshining6/MoonxxMusiCCC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/EAGELOP/EAGLEXMUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ABOUT_SNX_MOON")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/MILKY_WAY_45")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://telegram.me/+f1wa7kPVgXkzYjg1")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/EAGEL_OP")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b04efdacbf4b67079a6a4.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg",
+    "https://telegra.ph/file/b04efdacbf4b67079a6a4.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg"
+            PING_IMG_URL = "https://telegra.ph/file/b04efdacbf4b67079a6a4.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/25b7c34d8bfa28babf09b.jpg"
+            START_IMG_URL = "https://telegra.ph/file/b04efdacbf4b67079a6a4.jpg"
