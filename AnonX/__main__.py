@@ -24,7 +24,7 @@ async def init():
         and not config.STRING5
     ):
         LOGGER("AnonX").error(
-            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 @MOON_M_6"
+            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 @EAGEL_OP"
         )
         return
     if (
@@ -32,7 +32,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("AnonX").warning(
-            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 @MOON_M_6"
+            "𝐌𝐘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 @EAGEL_OP"
         )
     try:
         users = await get_gbanned()
@@ -47,13 +47,13 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("AnonX.plugins." + all_module)
     LOGGER("AnonX.plugins").info(
-        "Necessary ˹𝙅𝙚𝙣𝙣𝙞𝙚 ✘ 𝙈𝙪𝙨𝙞𝙘 ˼ ~🎵 Modules Imported Successfully."
+        "Necessary ˹𝐄𝐀𝐆𝐋𝐄_𝐗_𝐌𝐔𝐒𝐈𝐂 ˼ ~🎵 Modules Imported Successfully."
     )
     await userbot.start()
     await Anon.start()
     try:
         await Anon.stream_call(
-            "https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4"
+            "https://telegra.ph/file/b04efdacbf4b67079a6a4.jpg"
         )
     except NoActiveGroupCall:
         LOGGER("AnonX").error(
